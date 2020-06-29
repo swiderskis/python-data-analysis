@@ -10,6 +10,6 @@ def perform_calculations(array):
   arraymax = np.max(array)
   arraystd = np.std(array)
   arraysum = np.sum(array)
-  arraydot = np.dot(array,array)
+  arraydot = np.dot(array, array)
 
   return arraymax, arraystd, arraysum, arraydot
