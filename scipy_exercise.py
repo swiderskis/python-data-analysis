@@ -1,6 +1,8 @@
 """
-This function takes two numpy arrays as an input and returns their correlation and p-value.
-This is an exercise for the "Python Data Analysis and Visualisation" course on Educative.
+This function takes two numpy arrays as an input and returns their correlation
+and p-value.
+This is an exercise for the "Python Data Analysis and Visualisation" course on
+Educative.
 """
 
 from scipy import stats
