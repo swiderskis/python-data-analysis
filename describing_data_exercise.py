@@ -12,7 +12,7 @@ Educative.
 import pandas as pd
 def read_csv():
     
-     #Headers of columns in file "auto-mpg.data"
+    #Headers of columns in file "auto-mpg.data"
     names = ["mpg", "cylinders", "displacement", "horsepower", "weight", 
              "acceleration", "model_year", "origin", "car_name"]
     df = pd.read_csv("auto-mpg.data", header = None, names = names, 
